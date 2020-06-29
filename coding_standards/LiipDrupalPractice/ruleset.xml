@@ -1,6 +1,6 @@
 <?xml version="1.0"?>
 <ruleset name="LiipDrupalPractice">
-    <description>Drupal coding standard for Liip.</description>
+    <description>Drupal coding standard practice for Liip.</description>
 
     <!-- Set ignore extensions. -->
     <!-- @see https://www.drupal.org/node/2867601#comment-12075633 -->
