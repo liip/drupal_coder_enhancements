@@ -10,7 +10,7 @@
     ],
     "autoload": {
         "psr-4": {
-            "LiipDrupalPractice\\": "coding_standards/LiipDrupalPractice"
+            "LiipDrupalPractice\\": "coding_standards/LiipDrupalPractice/"
         }
     },
     "require": {
