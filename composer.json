@@ -1,0 +1,19 @@
+{
+    "name": "liip/drupal-coder-enhancements",
+    "description": "Internal Drupal coding standards.",
+    "type": "phpcodesniffer-standard",
+    "authors": [
+        {
+            "name": "Trent Crawford",
+            "email": "trent.crawford@liip.ch"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "LiipDrupalPractice\\": "coding_standards/LiipDrupalPractice"
+        }
+    },
+    "require": {
+        "squizlabs/php_codesniffer": "^3.5"
+    }
+}
