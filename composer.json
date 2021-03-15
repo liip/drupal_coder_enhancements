@@ -2,6 +2,7 @@
     "name": "liip/drupal-coder-enhancements",
     "description": "Internal Drupal coding standards.",
     "type": "phpcodesniffer-standard",
+    "license": "MIT",
     "authors": [
         {
             "name": "Trent Crawford",
