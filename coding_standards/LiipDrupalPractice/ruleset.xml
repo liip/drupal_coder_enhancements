@@ -1,16 +1,5 @@
 <?xml version="1.0"?>
 <ruleset name="LiipDrupalPractice">
     <description>Drupal coding standard practice for Liip.</description>
-
-    <!-- Set ignore extensions. -->
-    <!-- @see https://www.drupal.org/node/2867601#comment-12075633 -->
-    <!-- This can probably be removed by setting a dependency on Coder 8.3.7 -->
-    <arg name="ignore" value="*.css,*.md,*.txt,*.png,*.gif,*.jpeg,*.jpg,*.svg"/>
-
-    <!-- Set extensions to scan (taken from Coder 8.3.6). -->
-    <!-- @see https://git.drupalcode.org/project/coder/blob/8.3.6/coder_sniffer/Drupal/ruleset.xml#L8 -->
-    <arg name="extensions" value="php,module,inc,install,test,profile,theme,info,yml"/>
-
     <rule ref="LiipDrupalPractice.NamingConventions.CamelCaseMethodParameter" />
-
 </ruleset>
