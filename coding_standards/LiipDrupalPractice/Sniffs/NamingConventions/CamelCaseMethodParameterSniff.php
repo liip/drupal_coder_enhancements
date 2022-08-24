@@ -50,7 +50,7 @@ class CamelCaseMethodParameterSniff extends AbstractScopeSniff
           $methodName = ltrim($methodParam['name'],"$");
 
             if (preg_match('/^[a-z]/', $methodName) === 1 && strpos($methodName, '_') === false) {
-                return;
+                continue;
             }
 
             $warning = 'Method parameter should user lowerCamel naming without underscores: %s';
